@@ -5,8 +5,8 @@
 (function(window, document, exportName, undefined) {
   'use strict';
 
-function testExample() {
-    console.log('Test example', Date.now())
+function testExample(val) {
+    console.log('Test example', val, Date.now())
 }
 
 var Example = {
