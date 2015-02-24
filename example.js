@@ -11,7 +11,7 @@ function testExample(val) {
 
 var Example = {
     test: testExample
-});
+};
 
 if (typeof define == TYPE_FUNCTION && define.amd) {
     console.log('ExampleJS: AMD');
