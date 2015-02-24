@@ -14,12 +14,15 @@ var Example = {
 });
 
 if (typeof define == TYPE_FUNCTION && define.amd) {
+    console.log('ExampleJS: AMD');
     define(function() {
         return Example;
     });
 } else if (typeof module != 'undefined' && module.exports) {
     module.exports = Example;
+    console.log('ExampleJS: CommonJS');
 } else {
+    console.log('ExampleJS: Global');
     window[exportName] = Example;
 }
 
