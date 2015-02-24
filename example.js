@@ -13,7 +13,7 @@ var Example = {
     test: testExample
 };
 
-if (typeof define == TYPE_FUNCTION && define.amd) {
+if (typeof define == 'function' && define.amd) {
     console.log('ExampleJS: AMD');
     define(function() {
         return Example;
