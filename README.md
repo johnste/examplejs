@@ -1,2 +1,0 @@
-# examplejs
-Example.JS
